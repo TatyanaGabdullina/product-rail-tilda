@@ -4,7 +4,7 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
   {
     id: "Lime",
     name: "Konbinéza s kapucňou",
-    kind: "Kombinézy",
+    kind: "coat",
     color: "9BDC5E",
     tag: "$68",
     description: "Konbinéza Softshellova fleecová",
