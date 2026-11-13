@@ -4,7 +4,7 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
   {
     id: "Lime",
     name: "Kombinéza s kapucňou Lime",
-    kind: "overol",
+    kind: "coat",
     color: "9BDC5E",
     tag: "68 €",
     description: "Kombinéza Softshellova fleecová",
@@ -16,7 +16,7 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
   {
     id: "Trava",
     name: "Kombinéza s kapucňou Trava",
-    kind: "overol",
+    kind: "coat",
     color: "349A62",
     tag: "68 €",
     description: "Kombinéza Softshellova fleecová",
@@ -28,14 +28,14 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
   {
     id: "Obloha",
     name: "Nohavice s vreckami Obloha",
-    kind: "pants",
+    kind: "coat",
     color: "#58C0DF",
     tag: "22 €",
     description: "Nohavice Softshellove s vreckami",
     details: ["veľkosť 74 - 134 cm"],
-    image: "https://cdn.21st.dev/assets/mirror/47/470a7723cef068f81e8a4c09d1ab3f8630c61b734c2168b10f3858e45efbf31f.webp",
-    backImage: "https://cdn.21st.dev/assets/mirror/9b/9be14e5dce879756775677e2d82dadc2ad9a1690b7df2f82de360cb3600d0ee5.webp",
-    sideImage: "https://cdn.21st.dev/assets/mirror/59/5984d5ca60fd1aeee7e688ec33c2219a1c537fcde90d2accab813c13985f8632.webp",
+    image: "/product/obloha_front.webp",
+    backImage: "/product/obloha_back.webp",
+    sideImage: "/product/obloha_side.webp",
   },
   {
     id: "cardigan-olive",
