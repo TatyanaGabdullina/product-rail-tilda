@@ -9,9 +9,9 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     tag: "$68",
     description: "Konbinéza Softshellova fleecová",
     details: ["veľkosť 68 - 104 cm"],
-    image: "/products/laim_front.webp",
-    backImage: "/products/laim_back.webp",
-    sideImage: "/products/laim_side.webp",
+    image: "/product/laim_front.webp",
+    backImage: "/product/laim_back.webp",
+    sideImage: "/product/laim_side.webp",
   },
   {
     id: "cc-graphic",
