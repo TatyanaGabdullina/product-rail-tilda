@@ -6,7 +6,7 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     name: "Konbinéza s kapucňou Lime",
     kind: "coat",
     color: "9BDC5E",
-    tag: "$68",
+    tag: "68 €",
     description: "Konbinéza Softshellova fleecová",
     details: ["veľkosť 68 - 104 cm"],
     image: "/product/lime_front.webp",
