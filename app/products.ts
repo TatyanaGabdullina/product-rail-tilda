@@ -2,16 +2,16 @@ import type { RailGarment } from "@/components/ui/product-rail-gallery";
 
 export const RAIL_DEMO_ITEMS: RailGarment[] = [
   {
-    id: "bone-tee",
-    name: "Heavyweight tee · Bone",
-    kind: "tee",
-    color: "#EFEBE2",
-    tag: "$48",
-    description: "240 gsm organic cotton with a tonal DHxWHY embroidery on the chest.",
-    details: ["240 gsm", "Regular fit", "Tonal embroidery"],
-    image: "https://cdn.21st.dev/assets/mirror/14/1485bf44725b18fcdba71bfae54d67d648ab3bff4b24215a042c0cc4c895a2e6.webp",
-    backImage: "https://cdn.21st.dev/assets/mirror/69/69937e656430ae33d950303e0d53051273e5b02189750ef1e7429ec4bbf95e20.webp",
-    sideImage: "https://cdn.21st.dev/assets/mirror/83/838468c32f16b4acba62e4601276737411156052444712ff2534fefe994a7bed.webp",
+    id: "Lime",
+    name: "Konbinéza s kapucňou",
+    kind: "Kombinézy",
+    color: "9BDC5E",
+    tag: "$68",
+    description: "Konbinéza Softshellova fleecová",
+    details: ["veľkosť 68 - 104 cm"],
+    image: "/products/laim_front.webp",
+    backImage: "/products/laim_back.webp",
+    sideImage: "/products/laim_side.webp",
   },
   {
     id: "cc-graphic",
