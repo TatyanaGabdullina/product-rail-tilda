@@ -14,7 +14,7 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     sideImage: "/product/lime_side.webp",
   },
   {
-    id: "cc-graphic",
+    id: "trava",
     name: "Graphic tee · CCgather",
     kind: "tee",
     color: "#101214",
