@@ -3,7 +3,7 @@
 import * as React from "react";
 import { createPortal } from "react-dom";
 
-export type GarmentKind = "tee" | "knit" | "hoodie" | "shirt" | "coat";
+export type GarmentKind = "tee" | "knit" | "hoodie" | "shirt" | | "jacket" | "coat";
 
 export interface RailGarment {
   id: string;
