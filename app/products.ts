@@ -3,7 +3,7 @@ import type { RailGarment } from "@/components/ui/product-rail-gallery";
 export const RAIL_DEMO_ITEMS: RailGarment[] = [
   {
     id: "Lime",
-    name: "Konbinéza s kapucňou Lime",
+    name: "Kombinéza s kapucňou Lime",
     kind: "coat",
     color: "9BDC5E",
     tag: "68 €",
@@ -15,11 +15,11 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
   },
   {
     id: "Trava",
-    name: "Konbinéza s kapucňou Trava",
+    name: "Kombinéza s kapucňou Trava",
     kind: "coat",
     color: "349A62",
     tag: "68 €",
-    description: "ombinéza Softshellova fleecová",
+    description: "Kombinéza Softshellova fleecová",
     details: ["veľkosť 68 - 104 cm"],
     image: "/product/trava_front.webp",
     backImage: "/product/trava_back.webp",
