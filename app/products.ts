@@ -50,10 +50,10 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     sideImage: "/product/pants_trava_side.webp",
   },
   {
-    id: "bamby",
+    id: "Bamby",
     name: "Softshellove nohavice Bamby",
     kind: "hoodie",
-    color: "",
+    color: "#29376B",
     tag: "15 €",
     description: "Nohavice Softshellove fleecové",
     details: ["veľkosť 74 - 134 cm"],
