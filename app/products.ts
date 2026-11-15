@@ -57,9 +57,9 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     tag: "15 €",
     description: "Nohavice Softshellove fleecové",
     details: ["veľkosť 74 - 134 cm"],
-    image: "pants_bamby_front",
-    backImage: "pants_bamby_back",
-    sideImage: "pants_bamby_side",
+    image: "/product/pants_bamby_front.webp",
+    backImage: "/product/pants_bamby_back.webp",
+    sideImage: "/product/pants_bamby_side.webp",
   },
   {
     id: "sweat-lilac",
