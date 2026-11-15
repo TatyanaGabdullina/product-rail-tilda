@@ -1,19 +1,7 @@
 import type { RailGarment } from "@/components/ui/product-rail-gallery";
 
 export const RAIL_DEMO_ITEMS: RailGarment[] = [
-  {
-    id: "Lime",
-    name: "Kombinéza s kapucňou Lime",
-    kind: "coat",
-    color: "#9BDC5E",
-    tag: "68 €",
-    description: "Kombinéza Softshellova fleecová",
-    details: ["veľkosť 68 - 104 cm"],
-    image: "/product/lime_front.webp",
-    backImage: "/product/lime_back.webp",
-    sideImage: "/product/lime_side.webp",
-  },
-  {
+    {
     id: "Trava",
     name: "Kombinéza s kapucňou Trava",
     kind: "coat",
@@ -60,6 +48,18 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     image: "/product/pants_bamby_front.webp",
     backImage: "/product/pants_bamby_back.webp",
     sideImage: "/product/pants_bamby_side.webp",
+  },
+  {
+    id: "Lime",
+    name: "Kombinéza s kapucňou Lime",
+    kind: "coat",
+    color: "#9BDC5E",
+    tag: "68 €",
+    description: "Kombinéza Softshellova fleecová",
+    details: ["veľkosť 68 - 104 cm"],
+    image: "/product/lime_front.webp",
+    backImage: "/product/lime_back.webp",
+    sideImage: "/product/lime_side.webp",
   },
   {
     id: "dino",
