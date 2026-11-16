@@ -106,8 +106,8 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     description: "Kombinéza Softshellova fleecová",
     details: ["veľkosť 74 - 134 cm"],
     image: "/product/hnedy_front.webp",
-    backImage: "product/hnedy_back.webp",
-    sideImage: "product/hnedy_side.webp",
+    backImage: "/product/hnedy_back.webp",
+    sideImage: "/product/hnedy_side.webp",
   },
   {
     id: "oversized-ochre",
