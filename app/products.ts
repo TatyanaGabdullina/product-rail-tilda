@@ -13,7 +13,18 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     backImage: "/product/trava_back.webp",
     sideImage: "/product/trava_side.webp",
   },
-  
+  {
+    id: "navy",
+    name: "Overal na traky Tmavomodrý",
+    kind: "tee",
+    color: "#212A3B",
+    tag: "48 €",
+    description: "Overal Softshellovy na traky",
+    details: ["veľkosť 68 - 104 cm"],
+    image: "/product/navy_front.webp",
+    backImage: "/product/navy_back.webp",
+    sideImage: "/product/navy_side.webp",
+  },
     {
     id: "Poni",
     name: "Kombinéza s kapucňou Poni",
@@ -61,18 +72,6 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     image: "/product/pants_dino_front.webp",
     backImage: "/product/pants_dino_back.webp",
     sideImage: "/product/pants_dino_side.webp",
-  },
-  {
-    id: "navy",
-    name: "Overal na traky Tmavomodrý",
-    kind: "tee",
-    color: "#212A3B",
-    tag: "48 €",
-    description: "Overal Softshellovy na traky",
-    details: ["veľkosť 68 - 104 cm"],
-    image: "/product/navy_front.webp",
-    backImage: "/product/navy_back.webp",
-    sideImage: "/product/navy_side.webp",
   },
   {
     id: "Duha",
