@@ -37,6 +37,18 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     backImage: "/product/pants_trava_back.webp",
     sideImage: "/product/pants_trava_side.webp",
   },
+    {
+    id: "Poni",
+    name: "Kombinéza s kapucňou Poni",
+    kind: "tee",
+    color: "#3F2866",
+    tag: "68 €",
+    description: "Kombinéza Softshellova fleecová",
+    details: ["veľkosť 68 - 104 cm"],
+    image: "/product/poni_front.webp",
+    backImage: "/product/poni_back.webp",
+    sideImage: "/product/poni_side.webp",
+  },
   {
     id: "Bamby",
     name: "Softshellove nohavice Bamby",
@@ -109,16 +121,5 @@ export const RAIL_DEMO_ITEMS: RailGarment[] = [
     backImage: "/product/hnedy_back.webp",
     sideImage: "/product/hnedy_side.webp",
   },
-  {
-    id: "oversized-ochre",
-    name: "Oversized tee · CCgather",
-    kind: "tee",
-    color: "#DE9C31",
-    tag: "$52",
-    description: "Boxy ochre tee with a small chest mark and a large CCgather back print.",
-    details: ["Oversized", "Dropped shoulder", "Back print"],
-    image: "https://cdn.21st.dev/assets/mirror/72/7208c811f54e123dd7b1a5c1c3926f43ca832f6c4c20c45de10671ffd544409d.webp",
-    backImage: "https://cdn.21st.dev/assets/mirror/d3/d356989b7bc741c5cfc934cac34983dfb24d5d6a6b6e7b8b7f6b27cd3eceae69.webp",
-    sideImage: "https://cdn.21st.dev/assets/mirror/bf/bf94beeafb21f9cb21aa45057a67dc8a2e23ba95c7ac0f79dd27ba3ce4a1230c.webp",
-  },
+  
 ];
