@@ -7,9 +7,7 @@ export default function Page() {
       <ClothingRailHero
         items={RAIL_DEMO_ITEMS}
         hanger="none"
-        eyebrow="New season · Ten pieces on the rail"
-        heading="A clothing rail you can handle, right on the page."
-        caption="Brush along the rail, slide a hanger, lift a piece to see the back."
+        caption="Prechádzajte po lište, posúvajte vešiaky a nadvihnite si kúsok oblečenia, aby ste si pozreli jeho zadnú stranu."
         autoplay={true}
       />
     </main>
