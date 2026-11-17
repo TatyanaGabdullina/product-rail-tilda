@@ -1035,7 +1035,11 @@ export function ClothingRailHero({
         <div id={`${uid}-caption`} aria-live="polite" className="min-h-[3.25rem]">
   <p
     key={current?.id ?? "caption"}
-    className="animate-in fade-in text-[20px] font-bold text-foreground md:text-[32px] [animation-duration:300ms] motion-reduce:animate-none"
+    className={`animate-in fade-in [animation-duration:300ms] motion-reduce:animate-none ${
+  current
+    ? "text-[20px] font-bold text-foreground md:text-[32px]"
+    : "text-[12px] font-normal text-muted-foreground md:text-[16px]"
+}`}
   >
     {current ? current.name : caption}
   </p>
