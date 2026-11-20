@@ -1037,7 +1037,7 @@ export function ClothingRailHero({
     key={current?.id ?? "caption"}
     className={`animate-in fade-in [animation-duration:300ms] motion-reduce:animate-none ${
   current
-    ? "text-[20px] font-bold text-foreground md:text-[32px]"
+    ? "text-[20px] font-bold text-foreground md:text-[28px]"
     : "text-[12px] font-normal text-muted-foreground md:text-[16px]"
 }`}
   >
