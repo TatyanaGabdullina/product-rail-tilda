@@ -1194,6 +1194,7 @@ function Detail({ uid, item, index, total, hanger, labels, reduced, source, onLi
   const stage = (
     <div ref={figureRef} className="relative mx-auto aspect-[200/310] h-[min(62vh,560px)] max-h-full origin-top">
       <div aria-hidden="true" className="absolute left-1/2 top-[-24vh] h-[20vh] w-[3px] -translate-x-1/2 rounded-full" style={{ background: "linear-gradient(to right, color-mix(in oklab, var(--color-muted-foreground) 50%, white), var(--color-muted-foreground), color-mix(in oklab, var(--color-muted-foreground) 50%, black))", top: `calc(-20vh + ${(HOOK_TOP / VB_H) * 100}%)` }} />
+      <div
         className="absolute inset-0 cursor-grab touch-pan-y active:cursor-grabbing"
         style={{ perspective: "1400px" }}
         onPointerDown={(event) => { const a = angle.current; a.dragging = true; a.startX = event.clientX; a.startAngle = a.value; cancelAnimationFrame(a.raf); a.raf = 0; a.last = 0; event.currentTarget.setPointerCapture(event.pointerId); }}
